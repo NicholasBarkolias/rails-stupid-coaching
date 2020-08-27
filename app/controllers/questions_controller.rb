@@ -5,7 +5,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    @question = params[:answer]
+    @question = params[:question]
     @answer = ""
     if @question == "I am going to work"
       @answer = "Great"
